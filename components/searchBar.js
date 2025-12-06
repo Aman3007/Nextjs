@@ -22,7 +22,7 @@ export default function SearchBar() {
           type="text"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          placeholder="Search for a student by name... use Eva Wilson for testing"
+          placeholder="Search for a student by name... use Ava Wilson for testing"
           className="w-full px-6 py-4 text-lg border-2 border-gray-300 rounded-full focus:outline-none focus:border-blue-500 transition-all duration-300 shadow-lg hover:shadow-xl"
         />
         <button
